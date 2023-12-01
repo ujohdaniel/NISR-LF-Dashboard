@@ -1,57 +1,35 @@
 # NISR Labour Force Dashboard
-
-This Streamlit dashboard utilizes data from three CSV files originall gotten from the [NISR website]([url](https://www.statistics.gov.rw/publication/2002)): `16+ years_LF_data.csv` and `Labour Force data.csv`. The data provides insights into labor force participation dynamics by different indicator types.
+This Streamlit application provides an interactive dashboard for exploring labor force underutilization in Rwanda with reference to the "Labour Market Trend Analysis Brief 2016-2020".
 
 ## Data Sources
+The application utilizes the following datasets:
 
-### 1. 16+ years_LF_data.csv
-This dataset includes information related to education, marital status, sex, rural/urban areas, and more. The indicators cover aspects such as labor force participation rate, unemployment rate, and various employment-related metrics.
+maps.csv
+LF_Year_Summary.csv
+Population_Data.csv
+Economic_activities.csv
+Page Configuration
+The page is configured with the title "NISR Labour Force Dashboard" and a custom page icon.
 
-### 2. Labour Force data.csv
-This dataset categorizes information based on the employed and unemployed population, including economic activity, educational level, age groups, employment type, and hours worked. It provides a detailed breakdown of the population in terms of male and female, urban and rural and subsistence agriculture participation and subsistence agriculture non-participation.
+## Main Page
+#### Top KPI's
+The dashboard displays key performance indicators related to labor underutilization, including the composite measure of labor underutilization for the years 2019, 2021, and 2022.
 
-## Key Metrics
+#### Sidebar
+The sidebar allows users to select specific charts related to labor underutilization categories, such as potential labor force, time-related underemployment rate, and unemployment rate.
 
-The dashboard communicates key labor force indicators, including:
-- **Labor Force Participation Rate**
-- **Labour Underutilization**
-- **Time-Related Underemployment**
-- **Median Monthly Earnings at Main Job**
+#### Charts and Visualizations
+The application provides interactive visualizations for the selected labor underutilization categories, including line charts and bar charts, to illustrate trends and changes over time.
 
-## Interacting with the Dashboard
+#### Educational Fields and Technical Skills
+The dashboard also includes donut charts to visualize the percentage distribution of educational fields and technical skills by category. This provides insights into the skills possessed by the labor force and their relevance to the job market.
 
-### Filters
-1. **Section 1 Filters**
-   - Choose a group from the dropdown: Education, Marital Status, Sex_RA (Sex and Regional Area).
-   - Select specific indicators related to the chosen group.
+#### Formal and Informal Employment
+A bar chart is used to compare formal and informal employment in different economic activities, shedding light on the dynamics of employment in various sectors.
 
-2. **Section 2 Filters**
-   - Choose a population type filter from the dropdown (Employed & Unemployed).
-   - Select a specific indicator based on the chosen data type (economic activity, educational level, age groups, employment type, and hours worked).
+####Geographical Representation
+The application aims to include geographical representation of employment in agriculture to facilitate the creation of specific policies for different districts in Rwanda to modernize agriculture and improve the perception around agriculture.
 
-### Visualizations
+This README file provides an overview of the Streamlit application, its data sources, and the key features and visualizations available to users.
 
-#### 1. Section 1 Visualizations
-   a. **Chart 1: Employment to Population Ratio, LF Participation Rate, and Unemployment Rate**
-   - Displays trends for selected indicators.
-   
-   b. **Chart 2: Labour Force, Employed, Out of LF, and Unemployed Stats**
-   - Provides insights into the average values for various labor-related metrics.
-
-#### 2. Section 2 Visualizations
-   a. **Chart 3: Male and Female Population Comparison**
-   - Compares the male and female populations for selected indicators.
-
-   b. **Chart 4: Urban and Rural Population Variation**
-   - Illustrates the variation in population between urban and rural areas.
-
-   c. **Chart 5: Subsistence Agriculture Participation**
-   - Highlights the participation in subsistence agriculture.
-
-## Running the Dashboard
-
-1. Ensure you have Streamlit installed: `pip install streamlit`.
-2. Run the app: `streamlit run main.py`.
-3. Interact with the filters and explore the visualizations.
-
-Feel free to explore the labor force data dynamically and gain valuable insights!
+If you have any further questions or need additional details, feel free to ask!
