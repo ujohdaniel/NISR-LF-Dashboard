@@ -4,11 +4,11 @@ This Streamlit application provides an interactive dashboard for exploring labor
 ## Data Sources
 The application utilizes the following datasets:
 
-maps.csv
-LF_Year_Summary.csv
-Population_Data.csv
-Economic_activities.csv
-Page Configuration
+#### maps.csv
+#### LF_Year_Summary.csv
+#### Population_Data.csv
+#### Economic_activities.csv
+#### Page Configuration
 The page is configured with the title "NISR Labour Force Dashboard" and a custom page icon.
 
 ## Main Page
