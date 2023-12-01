@@ -27,7 +27,7 @@ The dashboard also includes donut charts to visualize the percentage distributio
 #### Formal and Informal Employment
 A bar chart is used to compare formal and informal employment in different economic activities, shedding light on the dynamics of employment in various sectors.
 
-####Geographical Representation
+#### Geographical Representation
 The application aims to include geographical representation of employment in agriculture to facilitate the creation of specific policies for different districts in Rwanda to modernize agriculture and improve the perception around agriculture.
 
 This README file provides an overview of the Streamlit application, its data sources, and the key features and visualizations available to users.
